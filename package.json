@@ -4,11 +4,15 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
+    "start": "nodemon --exec npx ts-node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^2.0.22",
+    "npm": "^9.7.1",
     "typescript": "^5.1.3"
   }
 }
